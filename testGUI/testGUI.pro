@@ -9,4 +9,5 @@ INCLUDEPATH += ../exampleApp
 RESOURCES += ../exampleApp/qml.qrc
 
 DISTFILES += \
-    tst_Main.qml
+    tst_Main.qml \
+    tst_MyButton.qml
