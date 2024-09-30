@@ -9,6 +9,10 @@ Window {
     visible: true
     title: qsTr("Hello World")
 
+    MyButton {
+        objectName: "button"
+    }
+
     InputPanel {
         id: inputPanel
         z: 99
