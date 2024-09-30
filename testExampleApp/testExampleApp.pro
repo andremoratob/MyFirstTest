@@ -7,6 +7,7 @@ TEMPLATE = app
 INCLUDEPATH += ../exampleApp
 
 HEADERS += ../exampleApp/exampleclass.h
+
 SOURCES += ../exampleApp/exampleclass.cpp
 
 SOURCES +=  tst_testexampleapp.cpp

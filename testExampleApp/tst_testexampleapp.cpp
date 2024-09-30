@@ -46,5 +46,4 @@ void testExampleApp::test_case1()
 }
 
 QTEST_APPLESS_MAIN(testExampleApp)
-
 #include "tst_testexampleapp.moc"

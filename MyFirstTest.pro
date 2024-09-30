@@ -1,8 +1,9 @@
 TEMPLATE = subdirs
 
 SUBDIRS += \
-    exampleApp
+    exampleApp \
+    testGUI
 
 contains(CONFIG, test) {
-    SUBDIRS += testExampleApp
+    SUBDIRS += testExampleApp testExampleGUI
 }
